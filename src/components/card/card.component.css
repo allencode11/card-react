@@ -1,0 +1,43 @@
+
+.card {
+  width: 211px;
+  height: 404px;
+  padding: 48px;
+}
+
+img {
+  width: 64px;
+  height: 40px;
+  padding-bottom: 35px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Big Shoulders Display', sans-serif;
+  padding-bottom: 25px;
+}
+
+.content {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 25px;
+  color: white;
+  opacity: 75%;
+  font-family: 'Lexend Deca', sans-serif;
+  padding-bottom: 83px;
+}
+
+@media screen and (max-width: 376px) {
+  .card {
+    width: 231px;
+    height: 346px;
+    padding: 48px;
+  }
+
+  .content {
+    padding-bottom: 25px;
+  }
+}
